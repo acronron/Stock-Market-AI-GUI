@@ -8,8 +8,8 @@ COPY ./ .
 RUN pip install --upgrade pip
 
 
-RUN apt update -y
-RUN apt install -y vim
+
+
 
 RUN python manage.py migrate 
 
